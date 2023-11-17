@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { createSVG } = require('./svgCreator'); // Assuming you have a module to create SVG
+const { createSVG } = require('./lib/svgCreator.js'); // Assuming you have a module to create SVG
 
 // Prompt user for input
 async function promptUser() {
